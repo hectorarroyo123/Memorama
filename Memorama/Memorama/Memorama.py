@@ -87,7 +87,7 @@ def Instrucciones():
 	input("NO REPETIR CASILLAS VACIAS O ENCONTRADAS")
 	os.system('cls')
 
-def comparacionfinal():
+def comparacionfinal(): #Ganar
 	if matrix==matrix2:
 		final=True
 		input("♥♦♣♠FELICIDADES, GANASTE♥♦♣♠")
